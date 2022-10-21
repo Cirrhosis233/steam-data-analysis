@@ -17,7 +17,7 @@
 6. Installed new packages? **Don't forget to export the new requirements!**
 
 7. ```bash
-   pip freeze > requirements.txt
+   pip list --format=freeze > requirements.txt
    ```
 
 8. Push your change. **Always pull latest changes before you push!**
