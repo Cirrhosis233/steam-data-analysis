@@ -1,4 +1,4 @@
-## Installation
+## Instructions
 
 1. Get Anaconda3.
 
@@ -21,6 +21,8 @@
    ```
 
 8. Push your change. **Always pull latest changes before you push!**
+
+8. **If you are downloading data into repo, don’t forget to specify the download path in the `.gitignore` !!!**
 
 ## Important dates
 
