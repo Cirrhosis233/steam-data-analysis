@@ -28,12 +28,21 @@
 
 8. Push your change. **Always pull latest changes before you push!**
 
-9. **If you are downloading data into repo, don’t forget to specify the download path in the `.gitignore` !!!**
+11. **If you are downloading data into repo, don’t forget to specify the download path in the `.gitignore` !!!**
+
+12. Just in case if you want to **remove** env:
+
+13. ```bash
+    conda env remove -n steam
+    ```
 
 ## Install Pyspark
 
-1. Make sure your local env is consistent with requirement.txt, if not, install it.
-2. Install Java8, make sure PATH is correctly set.
+1. Make sure your local env is **consistent** with requirement.txt, if not, install it. **OR you may need to remove env and recreat it.**
+2. Install **Java8**, make sure **PATH** is correctly set.
+2. Find `hadoop.dll` and `winutils.exe` in utils folder.
+2. Put them into `<install path>\Anaconda3\envs\steam\Lib\site-packages\pyspark\bin\`
+2. Add the about path to **PATH** env.
 3. Test it with pyspark_test.ipynb
 4. **Jupyter Notebook is for test only! Remember to create single .py file for the entire process.**
 5. Good reference if you have any question: https://sparkbyexamples.com/pyspark-tutorial/
