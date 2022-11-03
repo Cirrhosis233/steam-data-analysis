@@ -2,11 +2,17 @@
 
 1. Get Anaconda3.
 
+1. Open anaconda Bash, or if you want to use cmd, you'll need to add PATH to env
+
 2. ```bash
    conda create -n steam python=3.8 # steam is just the name of env
    ```
 
-3. Activate environment.
+4. Activate environment.
+
+5. ```bash
+   conda activate steam
+   ```
 
 4. Install latest package.
 
@@ -26,7 +32,11 @@
 
 ## Install Pyspark
 
-
+1. Make sure your local env is consistent with requirement.txt, if not, install it.
+2. Install Java8, make sure PATH is correctly set.
+3. Test it with pyspark_test.ipynb
+4. **Jupyter Notebook is for test only! Remember to create single .py file for the entire process.**
+5. Good reference if you have any question: https://sparkbyexamples.com/pyspark-tutorial/
 
 ## Important dates
 
