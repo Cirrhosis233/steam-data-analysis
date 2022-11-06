@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Ignore Download data
-
+/data/popular_price/sales_discounts/*.csv
