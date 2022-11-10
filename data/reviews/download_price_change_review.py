@@ -108,16 +108,14 @@ if __name__ == "__main__":
         print("downloading", file_name, "...")
         df = download_review_to_df(input_path, file_name)
         if type(df) != type(None):
-            df.to_csv(output_path+file_name, encoding="utf-8")
+            df.to_csv(output_path+file_name, encoding="utf-8", index=False)
             finished.append(file_name)
-        time.sleep(5)
+        # time.sleep(5)
         count += 1
-        if count % 100 == 0:
+        if count % 15 == 0:
             print(f"#queries {count} reached. Cooldown: {(2 * 60) + 8} s")
             time.sleep((2 * 60) + 8)
-        break
-
-    with open("./finished.txt", "w", encoding="utf-8") as f:
-        for name in finished:
-            f.write(name+"\n")
+        with open("./finished.txt", "w", encoding="utf-8") as f:
+            for name in finished:
+                f.write(name+"\n")
     
