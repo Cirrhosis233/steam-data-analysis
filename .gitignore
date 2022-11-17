@@ -133,3 +133,5 @@ dmypy.json
 /data/owners_price/steamspy/download/*.csv
 /analysis/priceChange/data/*.csv
 /data/reviews/data/price_change_review/*.csv
+/data/review_price/review-download/output/*.csv
+/data/review_price/review-download/source/*.csv
