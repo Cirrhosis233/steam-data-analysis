@@ -135,6 +135,7 @@ dmypy.json
 /data/reviews/data/price_change_review/*.csv
 /data/review_price/review-download/output/*.csv
 /data/review_price/review-download/source/*.csv
+/data/ml_analysis/output/*.csv
 /analysis/discount/raw_input/*.csv
 /analysis/discount/output/
 /analysis/discount/step2_input/
