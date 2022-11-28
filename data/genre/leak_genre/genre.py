@@ -10,7 +10,7 @@ gen = {"id": [], "name": []}
 error_lst = []
 result = []
 
-with open("joint_ids.csv") as f:
+with open("data\genre\leak_genre\leak_id.csv", "r", encoding="UTF-8") as f:
     ids = [id.strip() for id in f.readlines()[1:]]
 
 
